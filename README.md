@@ -1,11 +1,12 @@
 # shuttle_express
-
 A flutter app to book airplane tickets.
 
 ## Learning Curve
 -- Building a bottom navigation bar using the default tool and also displaying data according to the selected navigation item. <br>
 -- Adding spacer widget between widgets in Row or Column pushes the widgets to the far end of container. <br>
--- override your default styles with the .copyWith() method
+-- using an epxanded widget with an empty container in place of spacer widget <br>
+-- override your default styles with the .copyWith() method <br>
+-- use a layoutbuilder to generate dynamic number of widgets according the width or height using the constraint argument <br>
 
 ## Useful packages
 fluentui_icons: custom icons used in the bottom navigation bar <br>
